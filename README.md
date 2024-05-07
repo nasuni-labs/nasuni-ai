@@ -13,3 +13,9 @@ This repository contains a collection of scripts, tools, and documentation for i
 # Microsoft Co-Pilot Studio
 
 In the copilot/ directory of this repository you will find documentation and assistance scripts for integrating with Microsoft Copilot Studio to create your own copilots using data that resides in your Nasuni Storage. 
+
+## Python Scripts
+
+Co-pilot studio has a file size limit of 3MB for files that can be leveraged. Some larger PDF or HTML files with images can exeed that size limit. In the copilot/Scripts/ directory you will find example python scripts which can be used to extract just the test of pdf and html files to use with your custom Co-pilots. 
+
+Each script contains a NASUNI_DIR and OUTPUT_DIR which you will want to update to specify your Source NASUNI_DIR, and the export location for our text/json files as the OUTPUT_DIR. 
