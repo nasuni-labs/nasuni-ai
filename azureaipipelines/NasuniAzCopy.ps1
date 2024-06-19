@@ -1,4 +1,7 @@
 <#
+.SYNOPSIS
+Copy data between an NEA mounted fileshare to Azure Container as part of an AI Pipeline
+
 .DESCRIPTION 
 This is an example powershell script to easily copy data from a Nasuni Edge Appliance mounted on the local windows machine and copy it to a storage container as part of an AI pipeline. As described: https://github.com/nasuni-labs/nasuni-ai/blob/main/azureaipipelines/Nasuni-%20AzCopy%20technical%20white%20paper%20.pdf
 
